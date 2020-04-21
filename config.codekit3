@@ -25,8 +25,8 @@
 		"oA": 0,
 		"oAP": "/deploy/img/Footer/surfing-clipart-transparent-background-2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -102,8 +102,8 @@
 		"oA": 0,
 		"oAP": "/deploy/img/Section 5/paz-arando-bz-DE-AF0lM-unsplash.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
