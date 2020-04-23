@@ -30,77 +30,77 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 1/hero.png": {
+	"/deploy/img/Section1/hero.png": {
 		"ft": 32768,
 		"iS": 2143360,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 1/hero.png",
+		"oAP": "/deploy/img/Section1/hero.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 2/left side.png": {
+	"/deploy/img/Section2/leftside.png": {
 		"ft": 32768,
 		"iS": 1622936,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 2/left side.png",
+		"oAP": "/deploy/img/Section2/leftside.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 3/barrell.png": {
+	"/deploy/img/Section3/barrell.png": {
 		"ft": 32768,
 		"iS": 1221050,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 3/barrell.png",
+		"oAP": "/deploy/img/Section3/barrell.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 4/board.png": {
+	"/deploy/img/Section4/board.png": {
 		"ft": 32768,
 		"iS": 544155,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 4/board.png",
+		"oAP": "/deploy/img/Section4/board.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 4/girl-2.png": {
+	"/deploy/img/Section4/girl-2.png": {
 		"ft": 32768,
 		"iS": 160533,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 4/girl-2.png",
+		"oAP": "/deploy/img/Section4/girl-2.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 4/sitting.png": {
+	"/deploy/img/Section4/sitting.png": {
 		"ft": 32768,
 		"iS": 1412483,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 4/sitting.png",
+		"oAP": "/deploy/img/Section4/sitting.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/Section 5/paz-arando-bz-DE-AF0lM-unsplash.png": {
+	"/deploy/img/Section5/paz-arando-bz-DE-AF0lM-unsplash.png": {
 		"ft": 32768,
 		"iS": 108163,
 		"oA": 0,
-		"oAP": "/deploy/img/Section 5/paz-arando-bz-DE-AF0lM-unsplash.png",
+		"oAP": "/deploy/img/Section5/paz-arando-bz-DE-AF0lM-unsplash.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -126,12 +126,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/inClass-finishSketch.Sketch": {
+	"/design/.inClass-finishSketch.Sketch.icloud": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/design/inClass-finishSketch.Sketch",
+		"oAP": "/design/.inClass-finishSketch.Sketch.icloud",
 		"oF": 0
 		},
 	"/dev/footer.kit": {
@@ -352,7 +352,7 @@
 "projectAttributes": {
 	"creationDate": 609125200.43359804,
 	"displayValue": "Week-2-HW",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-brick",
 	"iconImageWasSetByUser": 0
 	},
