@@ -126,12 +126,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/.inClass-finishSketch.Sketch.icloud": {
+	"/design/inClass-finishSketch.Sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/design/.inClass-finishSketch.Sketch.icloud",
+		"oAP": "/design/inClass-finishSketch.Sketch",
 		"oF": 0
 		},
 	"/dev/footer.kit": {
@@ -291,6 +291,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -299,8 +312,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/styles.css",
-		"oF": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
