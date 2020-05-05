@@ -375,13 +375,32 @@ footer {
 /* =============
     Section 2 
 ============= */
-#section-2 {
+#section-2 aside img {
+  width: 100%; }
+
+#section-2 #section-2-intro {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ".section-2 .";
-  text-align: center; }
-  #section-2 #section-2-content {
+  grid-template-areas: ". section-2 ."; }
+  #section-2 #section-2-intro #section-2-intro-content {
     grid-area: section-2; }
+
+@media (min-width: 768px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: 38% auto;
+    grid-template-areas: "img";
+    margin-top: 20px;
+    margin-bottom: 50px; }
+    #section-2 aside {
+      grid-area: img; }
+    #section-2 #section-2-intro-content {
+      align-self: center; } }
+
+@media (min-width: 992px) {
+  #section-2 {
+    display: grid;
+    grid-template-columns: 45% auto; } }
 
 /* =============
     Section 3 
@@ -403,13 +422,31 @@ footer {
 ============= */
 #section-4 {
   display: grid; }
-  #section-4 ul {
-    grid-area: section-4;
-    display: grid;
-    gap: 20px; }
   #section-4 img {
     width: 100%; }
-
+  #section-4 ul {
+    grid-area: section-4;
+    gap: 20px; }
+    @media (min-width: 768px) {
+      #section-4 ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "g1 g1" "g1 g1" "g2 g3"; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g1 {
+        grid-area: g1; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g2 {
+        grid-area: g2; } }
+    @media (min-width: 768px) {
+      #section-4 ul #g3 {
+        grid-area: g3; } }
+    @media (min-width: 992px) {
+      #section-4 ul {
+        grid-template-columns: 70% 30%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "g1 g3" "g1 g2"; } }
 /* =============
     Section 5 
 ============= */
@@ -423,3 +460,28 @@ footer {
 
 #section-5 #section-5-content {
   grid-area: section-5; }
+
+@media (min-width: 768px) {
+  #section-5 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: ". section-5 ."; }
+    #section-5 aside img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    #section-5 #section-5-container {
+      grid-area: section-5; } }
+
+@media (min-width: 992px) {
+  #section-5 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: ". section-5 ."; }
+    #section-5 aside img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 45%; }
+    #section-5 #section-5-container {
+      grid-area: section-5; } }
