@@ -359,14 +359,14 @@ textarea {
 /* =============
     Footer
 ============= */
-footer {
+#footer {
   display: grid;
   grid-template-columns: 2% auto 5%;
   grid-template-areas: ". footer .";
   text-align: center; }
-  footer #footer-content {
+  #footer #footer-content {
     grid-area: footer; }
-  footer #footer-2020 {
+  #footer #footer-2020 {
     text-align: right; }
 
 /* =============
@@ -391,7 +391,8 @@ footer {
 #section-2 #section-2-intro {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-2 ."; }
+  grid-template-areas: ". section-2 .";
+  text-align: center; }
   #section-2 #section-2-intro #section-2-intro-content {
     grid-area: section-2; }
     #section-2 #section-2-intro #section-2-intro-content h3 {
@@ -461,15 +462,24 @@ footer {
     @media (min-width: 768px) {
       #section-4 ul #g1 {
         grid-area: g1; } }
+    @media (min-width: 992px) {
+      #section-4 ul #g1 {
+        grid-area: g1; } }
     @media (min-width: 768px) {
+      #section-4 ul #g2 {
+        grid-area: g2; } }
+    @media (min-width: 992px) {
       #section-4 ul #g2 {
         grid-area: g2; } }
     @media (min-width: 768px) {
       #section-4 ul #g3 {
         grid-area: g3; } }
     @media (min-width: 992px) {
+      #section-4 ul #g3 {
+        grid-area: g3; } }
+    @media (min-width: 992px) {
       #section-4 ul {
-        grid-template-columns: 70% 30%;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas: "g1 g3" "g1 g2"; } }
 /* =============

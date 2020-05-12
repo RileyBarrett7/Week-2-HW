@@ -28,9 +28,15 @@
             @include md{
                 grid-area: g1;
             }
+            @include lg{
+                grid-area: g1;
+            }
         }
         #g2{
             @include md{
+                grid-area: g2;
+            }
+            @include lg{
                 grid-area: g2;
             }
         }
@@ -39,10 +45,13 @@
             @include md{
                 grid-area: g3;
             }
+            @include lg{
+                grid-area: g3;
+            }
         }
 
         @include lg{
-            grid-template-columns: 70% 30%;
+            grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
 
             grid-template-areas: 
