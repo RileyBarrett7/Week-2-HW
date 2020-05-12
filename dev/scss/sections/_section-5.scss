@@ -16,6 +16,10 @@
 
     #section-5-content{
         grid-area: section-5;
+
+        h4{
+            font-weight: 400;
+        }
     }
 
     @include md{

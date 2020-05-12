@@ -325,6 +325,13 @@ ul {
 /* =============
     Typography
 ============= */
+body {
+  font-family: 'Nunito Sans', sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0; }
+
 /* =============
     Buttons
 ============= */
@@ -371,6 +378,9 @@ footer {
 #section-1 #section-1-headline {
   display: grid;
   text-align: center; }
+  #section-1 #section-1-headline h1 {
+    font-weight: 700;
+    font-size: 4.375rem; }
 
 /* =============
     Section 2 
@@ -384,6 +394,16 @@ footer {
   grid-template-areas: ". section-2 ."; }
   #section-2 #section-2-intro #section-2-intro-content {
     grid-area: section-2; }
+    #section-2 #section-2-intro #section-2-intro-content h3 {
+      font-weight: 600;
+      font-size: 2.1875rem; }
+    #section-2 #section-2-intro #section-2-intro-content h4 {
+      font-weight: 400; }
+    #section-2 #section-2-intro #section-2-intro-content hr {
+      height: 3px;
+      color: #E2D8D0;
+      background-color: #E2D8D0;
+      border: none; }
 
 @media (min-width: 768px) {
   #section-2 {
@@ -416,6 +436,11 @@ footer {
 
 #section-3 #section-3-content {
   grid-area: section-3; }
+  #section-3 #section-3-content hr {
+    height: 3px;
+    color: #E2D8D0;
+    background-color: #E2D8D0;
+    border: none; }
 
 /* =============
     Section 4 
@@ -460,6 +485,8 @@ footer {
 
 #section-5 #section-5-content {
   grid-area: section-5; }
+  #section-5 #section-5-content h4 {
+    font-weight: 400; }
 
 @media (min-width: 768px) {
   #section-5 {
