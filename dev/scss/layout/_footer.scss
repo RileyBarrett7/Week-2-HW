@@ -2,10 +2,11 @@
     Footer
 ============= */
 #footer{
-    display: grid;
-    grid-template-columns: 2% auto 5%;
-    grid-template-areas: ". footer .";
-    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    background-color: $tan;
 
     #footer-content{
         grid-area: footer;
@@ -13,7 +14,8 @@
     }
 
     #footer-2020{
-        text-align: right;
+        display: flex;
+        align-items: flex-end;
     
     }
 }
